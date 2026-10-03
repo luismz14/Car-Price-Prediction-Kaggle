@@ -53,4 +53,4 @@ MAE is expressed on the normalized price scale, rather than in currency units. T
 
 The notebook fits target encoding and scaling after concatenating training and test data. This can leak information into evaluation, and the preprocessing is outside the cross-validation pipeline. Treat the recorded scores as exploratory results; an independent evaluation would require training-only preprocessing within each fold. The original workflow is preserved.
 
-Dependencies are unpinned, and there is no automated test suite or locked historical environment. The dataset must be obtained separately from Kaggle. A source-code license still needs a decision; this repository currently has no license file.
+Dependencies are unpinned, and there is no automated test suite or locked historical environment. The dataset must be obtained separately from Kaggle. Repository-authored source code is licensed under [MIT](LICENSE). Third-party data/assets, upstream libraries, submodules and external models retain their own terms; MIT does not relicense them.
